@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function DeutschHelferAccordion() {
     return (
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className="w-[70vw] max-w-[1000px] mx-auto">
             <AccordionItem value="item-1">
                 <AccordionTrigger className="text-xl">Is it built with Texts about Real-Life Scenarios?</AccordionTrigger>
                 <AccordionContent className="text-lg text-foreground/80">

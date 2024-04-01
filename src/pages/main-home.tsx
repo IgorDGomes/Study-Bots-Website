@@ -35,7 +35,7 @@ export default function Home() {
         <>
             <div className="fixed top-0 right-0 left-0 bg-main h-20 z-[99]"></div>
             <div className="max-w-[1200px] mx-auto min-h-screen mb-[200px]">
-                <div className="fixed top-0 right-0 left-0 z-[99]">
+                <div className="fixed top-0 right-0 left-0 z-[99] px-5 md:px-10">
                     <div className="flex items-center justify-between min-h-20 max-w-[1200px] mx-auto">
                         <span className="text-2xl font-semibold text-white hover:cursor-pointer" onClick={() => setGermanClicked(false)}>My Bots</span>
                         <ThemeToggle />
@@ -44,11 +44,11 @@ export default function Home() {
                 {germanClicked ? (
                     <DeutschHelferHome />
                 ) : (
-                    <>
-                        <div className="flex gap-10 items-center justify-center mt-40 mb-20">
-                            <div className="flex flex-col gap-5 items-center">
+                    <div className="max-w-[90%] mx-auto sm:max-w-fit overflow-hidden">
+                        <div className="flex items-center justify-center mt-40 mb-32 md:mb-20">
+                            <div className="flex flex-col gap-10 md:gap-5 items-center w-[75%] text-center">
                                 <h1 className="text-4xl font-semibold">Explore My Bot Collection</h1>
-                                <p className="text-2xl text-center w-[75%]">Welcome to my collection of Discord bots, each created with a different purpose. Not all of them may be available at the moment.</p>
+                                <p className="text-2xl text-center">Welcome to my collection of Discord bots, each created with a different purpose. Not all of them may be available at the moment.</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center w-[80%] mx-auto">
@@ -80,7 +80,7 @@ export default function Home() {
                             </div>
                         </div>
                         <Steps />
-                    </>
+                    </div>
                 )}
             </div>
         </>
