@@ -6,20 +6,22 @@ import ChangeArrayCode from "./change-array-code";
 import ChangeArrayCodeCorrection from "./change-array-correction";
 
 export default function Steps() {
-    const [width, setWidth] = useState(window.innerWidth)
+    const [width, setWidth] = useState(0)
 
     useEffect(() => {
         const handleResize = () => {
             setWidth(window.innerWidth)
         }
-        
-        window.addEventListener("resize", handleResize);
-        
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
 
-    }, [width])
+        if (typeof window !== "undefined") {
+            setWidth(window.innerWidth)
+            window.addEventListener("resize", handleResize);
+            
+            return () => {
+                window.removeEventListener("resize", handleResize);
+            };
+        }
+    }, [])
 
     return (
         <div className="flex flex-col gap-24 items-center md:w-[1200px] max-w-[90vw] my-20 px-2 lg:px-10">
