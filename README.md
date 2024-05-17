@@ -34,7 +34,30 @@ The website was created with the purpose of not only showing the bots but also t
 
 ## Website Preview
 
+<details>
+    <summary>Dark Theme</summary>
+
 ![Website Preview](assets/study-bots-website.vercel.app_.png)
+
+---
+
+![Website Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra).png)
+    
+</details>
+
+---
+
+<details>
+    <summary>Light Theme</summary>
+
+![Website Preview](assets/study-bots-website.vercel.app_%20(1).png)
+
+---
+
+![Website Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png)
+    
+</details>
+
 
 
 ## Tech
