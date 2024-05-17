@@ -10,15 +10,20 @@
     &middot;
     <a href="#note">Note</a> 
     &middot;
+    <a href="#website-preview">Website Preview</a>
+    &middot;
+    <a href="#tech">Tech</a>
+    &middot;
     <a href="#more">More</a>
     &middot;
-    <a href="https://my-bots.netlify.app/">Website</a>
+    <a href="#license">License</a>
+    &middot;
+    <a href="https://my-bots.netlify.app/">Live Website</a>
 </div>
 
 <br />
 
 [![Github License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/IgorDGomes/Study-Bots-Website/blob/main/LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)
 
 
@@ -34,30 +39,37 @@ The website was created with the purpose of not only showing the bots but also t
 
 ## Website Preview
 
+### Dark Theme
+
 <details>
-    <summary>Dark Theme</summary>
+    <summary>Desktop</summary>
 
 ![Website Preview](assets/study-bots-website.vercel.app_.png)
-
----
-
-![Website Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra).png)
     
 </details>
-
----
 
 <details>
-    <summary>Light Theme</summary>
+    <summary>Mobile</summary>
 
-![Website Preview](assets/study-bots-website.vercel.app_%20(1).png)
-
----
-
-![Website Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png)
+![Mobile Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra).png)
     
 </details>
 
+### Light Theme
+
+<details>
+    <summary>Desktop</summary>
+
+![Website Preview](assets/study-bots-website.vercel.app_%20(1).png)
+    
+</details>
+
+<details>
+    <summary>Mobile</summary>
+
+![Mobile Preview](assets/study-bots-website.vercel.app_(Samsung%20Galaxy%20S20%20Ultra)%20(1).png)
+    
+</details>
 
 
 ## Tech
