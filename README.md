@@ -1,5 +1,5 @@
 <div align='center'>
-    <a href="https://my-bots.netlify.app/">
+    <a href="https://study-bots-website.vercel.app/">
         <img src='https://i.giphy.com/UYBDCJjwOd9Re.webp' alt='stars' width='300'>
     </a>
     <h1>My Bots Website</h1>
@@ -18,7 +18,7 @@
     &middot;
     <a href="#license">License</a>
     &middot;
-    <a href="https://my-bots.netlify.app/">Live Website</a>
+    <a href="https://study-bots-website.vercel.app/">Live Website</a>
 </div>
 
 <br />
